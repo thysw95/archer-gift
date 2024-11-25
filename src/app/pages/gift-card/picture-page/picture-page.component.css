@@ -1,0 +1,36 @@
+.gift-img {
+    width: 25vw;
+    height: 70vh;
+    border: rgb(177, 61, 61) 0.4vh solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.icon {
+    font-size: 2.9vh;
+    color: rgb(0, 195, 255);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vh;
+    font-family: cursive;
+}
+
+.picture-title {
+    background-color: white;
+    border: rgb(177, 61, 61) 0.4vh solid;
+    background-color: white;
+    border-radius: 2vh;
+}
+
+.picture-wrapper {
+    opacity: 1;
+    animation: fade 4s linear;
+}
+
+@keyframes fade {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}

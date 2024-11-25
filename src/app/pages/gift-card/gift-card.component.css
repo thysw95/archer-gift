@@ -1,0 +1,13 @@
+/* .wrapper {
+    width: 100%;
+    height: 100%;
+} */
+
+.message-content {
+    margin-top: 10vh;
+    max-width: 50%;
+    border: rgb(177, 61, 61) 0.4vh solid;
+    background-color: white;
+    border-radius: 2vh;
+}
+

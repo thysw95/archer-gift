@@ -1,0 +1,10 @@
+<div class="">
+    <div class="d-flex justify-content-center align-items-center ">
+        <div class="message-content" *ngIf="this.activeTab == 'message'">
+            <app-message-page (setActiveTabEmitter)="setActiveTab($event)"></app-message-page>
+        </div>
+        <div *ngIf="this.activeTab == 'picture'">
+            <app-picture-page></app-picture-page>
+        </div>
+    </div>
+</div>
