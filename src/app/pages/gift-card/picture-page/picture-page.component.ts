@@ -12,11 +12,11 @@ export class PicturePageComponent implements OnInit, AfterViewInit {
   @ViewChild('audioPlayer') audioPlayer: ElementRef;
 
   audioSources: string[] = [
-    "/assets/mp3/15. Hidden In the Sand.mp3",
-    "/assets/mp3/Clair de Lune.mp3",
-    "/assets/mp3/I Hear A Symphony - Live From Ocean Way Nashville.mp3",
-    "/assets/mp3/spotifydown.com - Can't Take My Eyes off You.mp3",
-    "/assets/mp3/Sweet Boi.mp3"
+    "assets/mp3/15. Hidden In the Sand.mp3",
+    "assets/mp3/Clair de Lune.mp3",
+    "assets/mp3/I Hear A Symphony - Live From Ocean Way Nashville.mp3",
+    "assets/mp3/spotifydown.com - Can't Take My Eyes off You.mp3",
+    "assets/mp3/Sweet Boi.mp3"
   ];
 
   selectedAudioSource: string = this.audioSources[0];
